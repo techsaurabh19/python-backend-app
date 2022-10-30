@@ -21,7 +21,7 @@ def shutdown():
 
 
 @myapp.route("/")
-def hello():
+def Hello():
     #    return name
     return render_template(
         'test.html', **locals())
